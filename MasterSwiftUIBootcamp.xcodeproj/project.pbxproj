@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8B98EAAC2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */; };
-		8B98EAAE2B450328008F3CCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EAAD2B450328008F3CCB /* ContentView.swift */; };
 		8B98EAB02B45032A008F3CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAAF2B45032A008F3CCB /* Assets.xcassets */; };
 		8B98EAB32B45032A008F3CCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAB22B45032A008F3CCB /* Preview Assets.xcassets */; };
+		8B98EABA2B45042D008F3CCB /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EAB92B45042D008F3CCB /* ViewModifierBootcamp.swift */; };
+		8B98EABC2B46049A008F3CCB /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EABB2B46049A008F3CCB /* ButtonStyleBootcamp.swift */; };
+		8B98EABE2B4607C2008F3CCB /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EABD2B4607C2008F3CCB /* AnyTransitionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B98EAA82B450328008F3CCB /* MasterSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSwiftUIBootcampApp.swift; sourceTree = "<group>"; };
-		8B98EAAD2B450328008F3CCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B98EAAF2B45032A008F3CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B98EAB22B45032A008F3CCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B98EAB92B45042D008F3CCB /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		8B98EABB2B46049A008F3CCB /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		8B98EABD2B4607C2008F3CCB /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */,
-				8B98EAAD2B450328008F3CCB /* ContentView.swift */,
+				8B98EAB92B45042D008F3CCB /* ViewModifierBootcamp.swift */,
+				8B98EABB2B46049A008F3CCB /* ButtonStyleBootcamp.swift */,
+				8B98EABD2B4607C2008F3CCB /* AnyTransitionBootcamp.swift */,
 				8B98EAAF2B45032A008F3CCB /* Assets.xcassets */,
 				8B98EAB12B45032A008F3CCB /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B98EAAE2B450328008F3CCB /* ContentView.swift in Sources */,
+				8B98EABC2B46049A008F3CCB /* ButtonStyleBootcamp.swift in Sources */,
+				8B98EABA2B45042D008F3CCB /* ViewModifierBootcamp.swift in Sources */,
+				8B98EABE2B4607C2008F3CCB /* AnyTransitionBootcamp.swift in Sources */,
 				8B98EAAC2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
