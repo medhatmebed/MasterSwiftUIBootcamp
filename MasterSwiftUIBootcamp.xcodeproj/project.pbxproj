@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B4909C72B47B6040046F162 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4909C62B47B6040046F162 /* UIViewRepresentableBootcamp.swift */; };
+		8B4909C92B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4909C82B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift */; };
 		8B98EAAC2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */; };
 		8B98EAB02B45032A008F3CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAAF2B45032A008F3CCB /* Assets.xcassets */; };
 		8B98EAB32B45032A008F3CCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAB22B45032A008F3CCB /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8B4909C62B47B6040046F162 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		8B4909C82B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		8B98EAA82B450328008F3CCB /* MasterSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		8B98EAAF2B45032A008F3CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				8B98EABD2B4607C2008F3CCB /* AnyTransitionBootcamp.swift */,
 				8BE86F612B46193D00E62E59 /* ViewBuilderBootcamp.swift */,
 				8B4909C62B47B6040046F162 /* UIViewRepresentableBootcamp.swift */,
+				8B4909C82B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift */,
 				8BE86F652B464D8700E62E59 /* PreferenceKeyBootcamp */,
 				8B98EAAF2B45032A008F3CCB /* Assets.xcassets */,
 				8B98EAB12B45032A008F3CCB /* Preview Content */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4909C92B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				8BE86F622B46193D00E62E59 /* ViewBuilderBootcamp.swift in Sources */,
 				8B98EABC2B46049A008F3CCB /* ButtonStyleBootcamp.swift in Sources */,
 				8B4909C72B47B6040046F162 /* UIViewRepresentableBootcamp.swift in Sources */,
