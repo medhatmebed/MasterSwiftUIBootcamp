@@ -11,7 +11,8 @@ import SwiftUI
 struct MasterSwiftUIBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            UIViewControllerRepresentableBootcamp()
+            let dataService = ProductionDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
+            DependencyInjectionBootcamp(dataService: dataService)
         }
     }
 }
