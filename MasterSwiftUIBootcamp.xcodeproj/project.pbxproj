@@ -19,6 +19,8 @@
 		8B8827AA2B48FFA900376437 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827A92B48FFA900376437 /* NewMockDataService_Tests.swift */; };
 		8B8827AC2B49074700376437 /* UITestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827AB2B49074700376437 /* UITestingBootcampView.swift */; };
 		8B8827AE2B49123500376437 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827AD2B49123500376437 /* AdvancedCombineBootcamp.swift */; };
+		8B8827B02B4A590400376437 /* CustomBindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827AF2B4A590400376437 /* CustomBindingBootcamp.swift */; };
+		8B8827B22B4A65F600376437 /* ErrorALertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827B12B4A65F600376437 /* ErrorALertBootcamp.swift */; };
 		8B98EAAC2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */; };
 		8B98EAB02B45032A008F3CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAAF2B45032A008F3CCB /* Assets.xcassets */; };
 		8B98EAB32B45032A008F3CCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAB22B45032A008F3CCB /* Preview Assets.xcassets */; };
@@ -54,6 +56,8 @@
 		8B8827A92B48FFA900376437 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		8B8827AB2B49074700376437 /* UITestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView.swift; sourceTree = "<group>"; };
 		8B8827AD2B49123500376437 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
+		8B8827AF2B4A590400376437 /* CustomBindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingBootcamp.swift; sourceTree = "<group>"; };
+		8B8827B12B4A65F600376437 /* ErrorALertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorALertBootcamp.swift; sourceTree = "<group>"; };
 		8B98EAA82B450328008F3CCB /* MasterSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		8B98EAAF2B45032A008F3CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				8B8827912B48B6FD00376437 /* DependencyInjectionBootcamp.swift */,
 				8B8827AB2B49074700376437 /* UITestingBootcampView.swift */,
 				8B8827AD2B49123500376437 /* AdvancedCombineBootcamp.swift */,
+				8B8827AF2B4A590400376437 /* CustomBindingBootcamp.swift */,
+				8B8827B12B4A65F600376437 /* ErrorALertBootcamp.swift */,
 				8BE86F652B464D8700E62E59 /* PreferenceKeyBootcamp */,
 				8B8827932B48DD3F00376437 /* UnitTestingBootcamp */,
 				8B98EAAF2B45032A008F3CCB /* Assets.xcassets */,
@@ -278,10 +284,12 @@
 				8B4909C72B47B6040046F162 /* UIViewRepresentableBootcamp.swift in Sources */,
 				8B8827902B48962900376437 /* ProtocolsBootcamp.swift in Sources */,
 				8B98EABA2B45042D008F3CCB /* ViewModifierBootcamp.swift in Sources */,
+				8B8827B02B4A590400376437 /* CustomBindingBootcamp.swift in Sources */,
 				8B8827A82B48FF3600376437 /* NewMockDataService.swift in Sources */,
 				8B98EABE2B4607C2008F3CCB /* AnyTransitionBootcamp.swift in Sources */,
 				8B8827952B48DD5500376437 /* UnitTestingBootcamp.swift in Sources */,
 				8B98EAAC2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift in Sources */,
+				8B8827B22B4A65F600376437 /* ErrorALertBootcamp.swift in Sources */,
 				8BE86F642B46255D00E62E59 /* PreferenceKeyBootcamp.swift in Sources */,
 				8BE86F672B464DA900E62E59 /* GeometryPreferenceBootcamp.swift in Sources */,
 				8B8827922B48B6FD00376437 /* DependencyInjectionBootcamp.swift in Sources */,
