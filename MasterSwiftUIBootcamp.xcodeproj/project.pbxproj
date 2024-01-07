@@ -17,6 +17,8 @@
 		8B8827A62B48E62300376437 /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827A52B48E62300376437 /* UnitTestingBootcampViewModel_Tests.swift */; };
 		8B8827A82B48FF3600376437 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827A72B48FF3600376437 /* NewMockDataService.swift */; };
 		8B8827AA2B48FFA900376437 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827A92B48FFA900376437 /* NewMockDataService_Tests.swift */; };
+		8B8827AC2B49074700376437 /* UITestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827AB2B49074700376437 /* UITestingBootcampView.swift */; };
+		8B8827AE2B49123500376437 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827AD2B49123500376437 /* AdvancedCombineBootcamp.swift */; };
 		8B98EAAC2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */; };
 		8B98EAB02B45032A008F3CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAAF2B45032A008F3CCB /* Assets.xcassets */; };
 		8B98EAB32B45032A008F3CCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B98EAB22B45032A008F3CCB /* Preview Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		8B8827A52B48E62300376437 /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
 		8B8827A72B48FF3600376437 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
 		8B8827A92B48FFA900376437 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
+		8B8827AB2B49074700376437 /* UITestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView.swift; sourceTree = "<group>"; };
+		8B8827AD2B49123500376437 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
 		8B98EAA82B450328008F3CCB /* MasterSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B98EAAB2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterSwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		8B98EAAF2B45032A008F3CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,8 +134,10 @@
 				8B4909C82B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift */,
 				8B88278F2B48962900376437 /* ProtocolsBootcamp.swift */,
 				8B8827912B48B6FD00376437 /* DependencyInjectionBootcamp.swift */,
-				8B8827932B48DD3F00376437 /* UnitTestingBootcamp */,
+				8B8827AB2B49074700376437 /* UITestingBootcampView.swift */,
+				8B8827AD2B49123500376437 /* AdvancedCombineBootcamp.swift */,
 				8BE86F652B464D8700E62E59 /* PreferenceKeyBootcamp */,
+				8B8827932B48DD3F00376437 /* UnitTestingBootcamp */,
 				8B98EAAF2B45032A008F3CCB /* Assets.xcassets */,
 				8B98EAB12B45032A008F3CCB /* Preview Content */,
 			);
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8827AE2B49123500376437 /* AdvancedCombineBootcamp.swift in Sources */,
 				8B4909C92B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				8BE86F622B46193D00E62E59 /* ViewBuilderBootcamp.swift in Sources */,
 				8B98EABC2B46049A008F3CCB /* ButtonStyleBootcamp.swift in Sources */,
@@ -279,6 +286,7 @@
 				8BE86F672B464DA900E62E59 /* GeometryPreferenceBootcamp.swift in Sources */,
 				8B8827922B48B6FD00376437 /* DependencyInjectionBootcamp.swift in Sources */,
 				8B8827972B48DE9500376437 /* UnitTestingBootcamoViewModel.swift in Sources */,
+				8B8827AC2B49074700376437 /* UITestingBootcampView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
