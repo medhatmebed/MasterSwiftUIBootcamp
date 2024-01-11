@@ -120,7 +120,7 @@ struct DependencyInjectionBootcamp: View {
 }
 
 #Preview {
-  //  let dataService = ProductionDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
-    let dataService = MockDataService(data: nil)
+    let dataService = ProductionDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
+   // let dataService = MockDataService(data: nil)
     return DependencyInjectionBootcamp(dataService: dataService)
 }

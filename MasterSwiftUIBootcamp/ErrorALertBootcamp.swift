@@ -8,9 +8,35 @@
 import SwiftUI
 
 struct ErrorALertBootcamp: View {
+    
+    @State private var error: Error? = nil
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Click Me") {
+            saveData()
+        }
+        .alert(error?.localizedDescription ?? "Error", isPresented: Binding(value: $error)) {
+            Button("OK") {
+                
+            }
+        }
     }
+    
+    private func saveData() {
+        
+        let isSuccessful = false
+        
+        if isSuccessful {
+            
+        } else {
+            
+            let myError: Error = URLError(.badURL)
+            
+            error = myError
+        }
+        
+    }
+    
 }
 
 #Preview {
