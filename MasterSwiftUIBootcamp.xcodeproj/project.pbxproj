@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		8B4909C72B47B6040046F162 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4909C62B47B6040046F162 /* UIViewRepresentableBootcamp.swift */; };
 		8B4909C92B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4909C82B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift */; };
+		8B5200502B58C77E00F61275 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52004F2B58C77E00F61275 /* ContentView.swift */; };
+		8B5200522B58CEC400F61275 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200512B58CEC400F61275 /* SideMenuView.swift */; };
+		8B5200542B58CF5500F61275 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200532B58CF5500F61275 /* SideMenuHeaderView.swift */; };
+		8B5200562B58EE6800F61275 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200552B58EE6800F61275 /* SideMenuRowView.swift */; };
+		8B5200582B58EF1400F61275 /* SideMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200572B58EF1400F61275 /* SideMenuOptionModel.swift */; };
 		8B8827902B48962900376437 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88278F2B48962900376437 /* ProtocolsBootcamp.swift */; };
 		8B8827922B48B6FD00376437 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827912B48B6FD00376437 /* DependencyInjectionBootcamp.swift */; };
 		8B8827952B48DD5500376437 /* UnitTestingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8827942B48DD5500376437 /* UnitTestingBootcamp.swift */; };
@@ -46,6 +51,11 @@
 /* Begin PBXFileReference section */
 		8B4909C62B47B6040046F162 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		8B4909C82B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		8B52004F2B58C77E00F61275 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B5200512B58CEC400F61275 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		8B5200532B58CF5500F61275 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		8B5200552B58EE6800F61275 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		8B5200572B58EF1400F61275 /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
 		8B88278F2B48962900376437 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		8B8827912B48B6FD00376437 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 		8B8827942B48DD5500376437 /* UnitTestingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcamp.swift; sourceTree = "<group>"; };
@@ -90,6 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B52004E2B58C76400F61275 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8B52004F2B58C77E00F61275 /* ContentView.swift */,
+				8B5200552B58EE6800F61275 /* SideMenuRowView.swift */,
+				8B5200512B58CEC400F61275 /* SideMenuView.swift */,
+				8B5200572B58EF1400F61275 /* SideMenuOptionModel.swift */,
+				8B5200532B58CF5500F61275 /* SideMenuHeaderView.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 		8B8827932B48DD3F00376437 /* UnitTestingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +167,7 @@
 				8B8827AF2B4A590400376437 /* CustomBindingBootcamp.swift */,
 				8B8827B12B4A65F600376437 /* ErrorALertBootcamp.swift */,
 				8B8827B32B4A728800376437 /* KeyPathsBootcamp.swift */,
+				8B52004E2B58C76400F61275 /* SideMenu */,
 				8BE86F652B464D8700E62E59 /* PreferenceKeyBootcamp */,
 				8B8827932B48DD3F00376437 /* UnitTestingBootcamp */,
 				8B98EAAF2B45032A008F3CCB /* Assets.xcassets */,
@@ -280,12 +303,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5200502B58C77E00F61275 /* ContentView.swift in Sources */,
 				8B8827AE2B49123500376437 /* AdvancedCombineBootcamp.swift in Sources */,
 				8B4909C92B47C3AC0046F162 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				8BE86F622B46193D00E62E59 /* ViewBuilderBootcamp.swift in Sources */,
 				8B98EABC2B46049A008F3CCB /* ButtonStyleBootcamp.swift in Sources */,
+				8B5200542B58CF5500F61275 /* SideMenuHeaderView.swift in Sources */,
 				8B4909C72B47B6040046F162 /* UIViewRepresentableBootcamp.swift in Sources */,
 				8B8827902B48962900376437 /* ProtocolsBootcamp.swift in Sources */,
+				8B5200582B58EF1400F61275 /* SideMenuOptionModel.swift in Sources */,
 				8B98EABA2B45042D008F3CCB /* ViewModifierBootcamp.swift in Sources */,
 				8B8827B02B4A590400376437 /* CustomBindingBootcamp.swift in Sources */,
 				8B8827A82B48FF3600376437 /* NewMockDataService.swift in Sources */,
@@ -294,7 +320,9 @@
 				8B98EAAC2B450328008F3CCB /* MasterSwiftUIBootcampApp.swift in Sources */,
 				8B8827B22B4A65F600376437 /* ErrorALertBootcamp.swift in Sources */,
 				8BE86F642B46255D00E62E59 /* PreferenceKeyBootcamp.swift in Sources */,
+				8B5200522B58CEC400F61275 /* SideMenuView.swift in Sources */,
 				8BE86F672B464DA900E62E59 /* GeometryPreferenceBootcamp.swift in Sources */,
+				8B5200562B58EE6800F61275 /* SideMenuRowView.swift in Sources */,
 				8B8827922B48B6FD00376437 /* DependencyInjectionBootcamp.swift in Sources */,
 				8B8827972B48DE9500376437 /* UnitTestingBootcamoViewModel.swift in Sources */,
 				8B8827AC2B49074700376437 /* UITestingBootcampView.swift in Sources */,
