@@ -16,7 +16,8 @@ struct PreferenceKeyBootcamp: View {
             VStack {
                 SecondaryScreen(text: text)
                     .navigationTitle("Navigation Title")
-                   // .customTitle("Hello Medhat")
+                 //   .preference(key: CustomTitlePreferenceKey.self, value: "new value")
+                 //   .customTitle("Hello Medhat")
             }
         }
         .onPreferenceChange(CustomTitlePreferenceKey.self, perform: { value in
